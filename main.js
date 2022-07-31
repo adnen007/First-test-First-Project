@@ -3,10 +3,8 @@ let bars = document.querySelector("header .bars");
 let ul = document.querySelector("header ul ");
 let head = document.querySelector("header");
 
-console.log(ul)
 let lis = ul.querySelectorAll("li");
 
-console.log(lis)
 
 lis.forEach((e) => {
   e.addEventListener('click', () => {
